@@ -1,0 +1,29 @@
+main {
+  flex: 1;
+  display: grid;
+  place-content: center;
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  background-color: var(--secondary-color);
+  gap: 0.5rem;
+}
+
+.winner{
+  margin: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.winner button{
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(0, 128, 255);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: capitalize;
+}
